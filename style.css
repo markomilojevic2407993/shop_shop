@@ -1,0 +1,29 @@
+.navbar-nav .nav-item:hover .nav-link {
+    color: #fff; /* Promenite boju po želji */
+    background-color: #007bff; /* Promenite boju pozadine po želji */
+  }
+  
+  /* Opciono: Dodajte prelaz za glatkiji efekat */
+  .navbar-nav .nav-item .nav-link {
+    transition: color 0.3s, background-color 0.3s;
+  }
+  .navbar-nav .nav-item .nav-link {
+    font-size: 18px; /* Promenite veličinu fonta prema potrebi */
+    font-weight: 700; /* Promenite težinu fonta prema potrebi (bold je 700) */
+  }
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 312px;
+    height: 520px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+  }
+  .miniFlex{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+  }
