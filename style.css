@@ -27,3 +27,12 @@
     flex-direction: row;
     
   }
+  .search input{
+    width: 60vw;
+    padding: 4px;
+    margin: 15px;
+    text-align:center;
+    font-weight:700;
+    font-size:1.6rem;
+    border: 6px solid darkblue;
+  }
